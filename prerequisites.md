@@ -93,12 +93,12 @@ az account show --output table
 
 ### **🏗️ Terraform - Infrastructure as Code**
 
-**🎯 Version Requirement:** v1.9.8 or higher
+**🎯 Version Requirement:** v1.15.6 or higher
 
 ```bash
 # Verify installation
 terraform --version
-# Should show: Terraform v1.9.8 or higher
+# Should show: Terraform v1.15.6 or higher
 ```
 
 **📦 Installation:**

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2026-06-22] - Terraform and Azure Provider Refresh
+
+### Changed
+- **Terraform**: Updated required version from `>= 1.14.0, < 2.0.0` to `>= 1.15.6, < 2.0.0`; pinned to `1.15.6` in CI workflows
+- **Azure provider (azurerm)**: Updated from `>= 4.68.0, < 5.0.0` to `>= 4.78.0, < 5.0.0` across all modules
+- **Documentation**: Updated version tables and prerequisite references to match the new Terraform and azurerm versions
+
 ## [2026-04-15] - AKS Version Upgrade
 
 ### Changed

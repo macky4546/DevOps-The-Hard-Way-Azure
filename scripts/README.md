@@ -119,7 +119,7 @@ Before running any scripts, ensure you have:
 
 ### Required Tools
 - ✅ **Azure CLI** (2.0+) - `az --version`
-- ✅ **Terraform** (1.9.8+) - `terraform version`
+- ✅ **Terraform** (1.15.6+) - `terraform version`
 - ✅ **Docker** - `docker --version`
 - ✅ **kubectl** - `kubectl version --client`
 - ✅ **Helm** (3.0+) - `helm version`
@@ -186,7 +186,7 @@ The scripts support environment variables for:
 PROJECT_NAME="mycompany-prod" LOCATION="westeurope" ./scripts/deploy-all.sh
 
 # Use different Kubernetes version
-export KUBERNETES_VERSION="1.32"
+export KUBERNETES_VERSION="1.35"
 ./scripts/deploy-all.sh
 ```
 

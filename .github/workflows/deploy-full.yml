@@ -49,7 +49,7 @@ jobs:
     - name: 🏗️ Setup Terraform
       uses: hashicorp/setup-terraform@v4
       with:
-        terraform_version: 1.14.8
+        terraform_version: 1.15.6
         terraform_wrapper: false
 
     - name: 🐳 Set up Docker Buildx
@@ -200,7 +200,7 @@ jobs:
         name     = "$PROJECT_NAME"
         location = "$LOCATION"
         
-        kubernetes_version         = "1.33"
+        kubernetes_version         = "1.35"
         agent_count                = 2
         vm_size                    = "Standard_DS2_v2"
         ssh_public_key             = "$SSH_PUBLIC_KEY"
@@ -331,7 +331,7 @@ jobs:
         echo "- **Project Name:** $PROJECT_NAME" >> $GITHUB_STEP_SUMMARY
         echo "- **Environment:** ${{ github.event.inputs.environment || 'dev' }}" >> $GITHUB_STEP_SUMMARY
         echo "- **Location:** $LOCATION" >> $GITHUB_STEP_SUMMARY
-        echo "- **Kubernetes Version:** 1.33" >> $GITHUB_STEP_SUMMARY
+        echo "- **Kubernetes Version:** 1.35" >> $GITHUB_STEP_SUMMARY
 
   cleanup:
     name: 🗑️ Cleanup Resources (if requested)
@@ -356,7 +356,7 @@ jobs:
     - name: 🏗️ Setup Terraform
       uses: hashicorp/setup-terraform@v4
       with:
-        terraform_version: 1.14.8
+        terraform_version: 1.15.6
         terraform_wrapper: false
 
     - name: ☸️ Setup kubectl

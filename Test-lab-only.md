@@ -9,7 +9,7 @@ Ensure the following tools are installed and up to date:
 | Tool | Minimum Version |
 |------|----------------|
 | Azure CLI | Latest |
-| Terraform | 1.14.8 |
+| Terraform | 1.15.6 |
 | Docker | Latest |
 | kubectl | Latest |
 | Helm | Latest |
@@ -78,8 +78,8 @@ Choose an environment (`dev` / `staging` / `prod`) and optionally enable **Destr
 
 | Component | Version |
 |-----------|---------|
-| Terraform | 1.14.8 |
-| Azure Provider (azurerm) | ~> 4.68 |
+| Terraform | 1.15.6 |
+| Azure Provider (azurerm) | ~> 4.78 |
 | AKS Kubernetes | 1.35 |
 | Python base image | 3.13-slim |
 | Flask | 3.1.3 |
