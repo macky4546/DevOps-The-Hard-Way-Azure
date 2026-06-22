@@ -31,6 +31,8 @@ A comprehensive DevOps tutorial series for Microsoft Azure — a step-by-step le
 
 ## The Modern DevOps Solution
 
+ ![repo-overview](images/repo-overview.png)
+
 Transform the **thomasthornton.cloud** application from legacy infrastructure to a cloud-native, containerized, auto-scaling solution with:
 
 - **Infrastructure as Code** for repeatable, version-controlled deployments
