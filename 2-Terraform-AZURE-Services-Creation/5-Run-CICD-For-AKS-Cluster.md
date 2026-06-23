@@ -8,6 +8,11 @@ In this lab, you'll learn how to create an Azure Kubernetes Service (AKS) cluste
 ### Prerequisites
 - [ ] Basic understanding of Terraform and GitHub Actions
 
+## Diagram view
+
+High level view of GitHub OIDC sequence
+![github-oidc-view](images/github-oidc.png)
+
 
 ### Steps
 
